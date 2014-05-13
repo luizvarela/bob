@@ -1,0 +1,8 @@
+language: ruby
+cache: bundler
+
+rvm:
+  - ruby
+  - 2.0.0-p353
+
+script: 'ruby -I lib test/bob_test.rb'
