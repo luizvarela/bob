@@ -6,3 +6,10 @@ rvm:
   - 2.0.0-p353
 
 script: 'ruby -I lib test/bob_test.rb'
+
+notifications:
+  email:
+    recipients:
+      - my@email.com
+    on_failure: change
+    on_success: never
