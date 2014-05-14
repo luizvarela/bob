@@ -5,7 +5,7 @@ rvm:
   - ruby
   - 2.0.0-p353
 
-script: 'ruby -I lib test/bob_test.rb'
+script: 'bundle exec rake test:run_test'
 
 notifications:
   email:
